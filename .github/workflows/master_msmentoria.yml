@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'MSMentoria'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_759F77116D6945F5A3F6C8E45A2A3107 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .

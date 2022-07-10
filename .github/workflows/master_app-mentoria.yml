@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'app-mentoria'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5DF3C96131B64555A2BE8C55A838B5B6 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
